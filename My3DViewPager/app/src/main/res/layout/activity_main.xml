@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/holo_light_button_pressed"
+    android:clipChildren="false">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="270dp"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>
