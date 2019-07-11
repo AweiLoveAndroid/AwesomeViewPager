@@ -4,6 +4,8 @@
 
 > 自定义ViewPager实现3D画廊效果
 
+### 详细介绍请看我的博客：[https://www.jianshu.com/p/7590431176c1](https://www.jianshu.com/p/7590431176c1)
+
 ----
 
 ### 更新记录
