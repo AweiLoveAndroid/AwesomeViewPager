@@ -8,12 +8,12 @@ import android.view.View;
 
 /**
  * 垂直滑动的ViewPager
- * Created by lzw on 2017/6/1
+ * @author Create by lzw on 2017/6/1
+ * @version 1.0
  */
 public class MyViewPager extends ViewPager {
     /**
      * 垂直滑动的ViewPager 构造函数
-     *
      * @param context 上下文
      */
     public MyViewPager(Context context) {
@@ -22,7 +22,6 @@ public class MyViewPager extends ViewPager {
 
     /**
      * 垂直滑动的ViewPager 构造函数
-     *
      * @param context 上下文
      * @param attrs   自定义属性
      */
@@ -34,7 +33,6 @@ public class MyViewPager extends ViewPager {
 
     /**
      * 拦截touch事件
-     *
      * @param ev 获取事件类型的封装类MotionEvent
      */
     @Override
@@ -47,7 +45,6 @@ public class MyViewPager extends ViewPager {
 
     /**
      * 触摸点击触发该方法
-     *
      * @param ev 获取事件类型的封装类MotionEvent
      */
     @Override
@@ -57,7 +54,6 @@ public class MyViewPager extends ViewPager {
 
     /**
      * 交换x轴和y轴的移动距离
-     *
      * @param event 获取事件类型的封装类MotionEvent
      */
     private MotionEvent swapEvent(MotionEvent event) {

@@ -1,12 +1,19 @@
 # AwesomeViewPager
 这个库是ViewPager的花样使用。包括垂直ViewPager，3DViewPager等。
 
-
+----
 
 ## 详细介绍：
 
 
+* #### [VerticalViewPager](/VerticalViewPager)   垂直的ViewPager。
 
-* ### [VerticalViewPager](/VerticalViewPager)   垂直的ViewPager。
+* #### [My3DViewPager](/My3DViewPager)   具有3D效果的ViewPager。
 
-* ### [My3DViewPager](/My3DViewPager)   具有3D效果的ViewPager。
+----
+
+## API 文档：
+
+* #### VerticalViewPager： [VerticalViewPager API](https://aweiloveandroid.github.io/VerticalViewPager/) 
+
+* #### My3DViewPager： [My3DViewPager API](https://aweiloveandroid.github.io/My3DViewPager/) 

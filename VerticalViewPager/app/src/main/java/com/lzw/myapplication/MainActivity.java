@@ -12,14 +12,13 @@ import java.util.ArrayList;
 
 /**
  * 垂直的ViewPager演示
- *
- * @author lzw on 2017/6/1
+ * @author Create by lzw on 2017/6/1
  * @version 1.0
  */
 public class MainActivity extends AppCompatActivity {
 
     /**
-     * 自定义的垂直的ViewPager
+     * 自定义的垂直的ViewPager {@link MyAdapter}
      */
     private MyViewPager mViewPager;
 
@@ -65,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
 
         /**
          * ViewPager的构造函数
-         *
          * @param viewLists 传入的View的集合，用于展示这些视图
          */
         public MyAdapter(ArrayList<View> viewLists) {
