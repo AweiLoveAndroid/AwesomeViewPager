@@ -11,7 +11,7 @@
 
 * #### [My3DViewPager](/My3DViewPager)   具有3D效果的ViewPager。
 
-* #### [ViewPagerTransform](/ViewPagerTransform)   ViewPager各种酷炫的切换动画。
+* #### [ViewPagerTransform](/ViewPagerTransforms)   ViewPager各种酷炫的切换动画。
 
 ----
 

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ViewPagerTransform</string>
+
+    <string name="goto_one">跳转到MainActivity1</string>
+    <string name="goto_two">跳转到MainActivity2</string>
+    <string name="goto_three">跳转到MainActivity3</string>
+    <string name="goto_flowlayout">FlowLayout演示</string>
+
+</resources>

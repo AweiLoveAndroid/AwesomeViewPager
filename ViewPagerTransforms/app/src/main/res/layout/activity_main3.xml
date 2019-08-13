@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.lzw.library.transform.viewpager.CustomViewPager
+        android:id="@+id/viewpager3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <!--<android.support.design.chip.ChipGroup-->
+        <!--android:id="@+id/chipgroup"-->
+        <!--style="@style/Style_FlowLayout_Demo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:paddingBottom="@dimen/activity_horizontal_margin"-->
+        <!--android:layout_height="match_parent">-->
+        <!--</android.support.design.chip.ChipGroup>-->
+
+        <com.lzw.library.transform.widgets.FlowLayout
+            android:id="@+id/flowlayout"
+            style="@style/Style_FlowLayout_Demo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_horizontal_margin">
+        </com.lzw.library.transform.widgets.FlowLayout>
+
+    </ScrollView>
+
+
+    <!-- <RadioGroup
+         style="@style/Style_RadioGroup">
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/DefaultTransformer"/>
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/AccordionTransformer"/>
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/BackgroundToForegroundTransformer"/>
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/ForegroundToBackgroundTransformer"/>
+     </RadioGroup>
+     <RadioGroup
+         style="@style/Style_RadioGroup">
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/CubeInTransformer"/>
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/CubeOutTransformer"/>
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/DepthPageTransformer"/>
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/FlipHorizontalTransformer"/>
+     </RadioGroup>
+     <RadioGroup
+         style="@style/Style_RadioGroup">
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/FlipVerticalTransformer"/>
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/RotateDownTransformer"/>
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/RotateUpTransformer"/>
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/ScaleInOutTransformer"/>
+     </RadioGroup>
+     <RadioGroup
+         style="@style/Style_RadioGroup">
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/StackTransformer"/>
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/TabletTransformer"/>
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/ZoomInTransformer"/>
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/ZoomOutTranformer"/>
+     </RadioGroup>
+     <RadioGroup
+         style="@style/Style_RadioGroup">
+         <RadioButton
+             style="@style/Style_RadioButton"
+             android:text="@string/ZoomOutSlideTransformer"/>
+     </RadioGroup>-->
+
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="绿色多选"
+            android:textColor="@color/base_color_8"
+            android:textSize="16sp"/>
+
+        <com.lzw.library.transform.widgets.FlowLayout
+            android:id="@+id/fl_default"
+            style="@style/Flowlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+
+        </com.lzw.library.transform.widgets.FlowLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="粉红色单选"
+            android:textColor="@color/base_color_0"
+            android:textSize="16sp"/>
+
+        <com.lzw.library.transform.widgets.FlowLayout
+            android:id="@+id/fl_red"
+            style="@style/Flowlayout.Beauty_Red1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+
+        </com.lzw.library.transform.widgets.FlowLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="粉红色流式布局多选"
+            android:textColor="@color/base_color_0"
+            android:textSize="16sp"/>
+
+        <com.lzw.library.transform.widgets.FlowLayout
+            android:id="@+id/fl_red2"
+            style="@style/Flowlayout.Beauty_Red2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+
+        </com.lzw.library.transform.widgets.FlowLayout>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="取消选中"
+            android:textColor="@color/base_color_2"/>
+    </LinearLayout>
+
+
+</ScrollView>

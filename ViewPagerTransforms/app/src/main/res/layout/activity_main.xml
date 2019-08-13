@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/goto_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/goto_one"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/goto_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/goto_two"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/goto_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/goto_three"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/goto_flowlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/goto_flowlayout"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

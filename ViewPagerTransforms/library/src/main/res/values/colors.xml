@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--flowlayout默认的主题颜色-->
+
+    <color name="base_color_0">#f53e7b</color>
+    <color name="base_color_1">#333333</color>
+    <color name="base_color_2">#666666</color>
+    <color name="base_color_3">#999999</color>
+    <color name="base_color_4">#eeeeee</color>
+    <color name="base_color_5">#e5e5e5</color>
+    <color name="base_color_6">#ffffff</color>
+    <color name="base_color_7">#ededed</color>
+    <color name="base_color_8">#49c120</color>
+    <color name="base_color_9">#de000000</color>
+    <color name="base_color_10">#80000000</color>
+    <color name="button_gray">#dcdcdc</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="blue">#5c5cff</color>
+    <color name="white">#ffffff</color>
+    <color name="orange_light">#e69310</color>
+    <color name="oragne_dark">#f4511e</color>
+
+
+
+</resources>

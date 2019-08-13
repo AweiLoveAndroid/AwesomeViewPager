@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlowLayout">
+
+        <!--这两个属性FlowLayout只是解析了，但是并具体代码没用到这两个属性-->
+        <!-- <attr name="tag_inputHintColor" format="color" />
+        <attr name="tag_inputTextColor" format="color" />-->
+
+        <!-- 普通状态的背景色 -->
+        <attr name="tag_backgroundColor" format="reference|color" />
+        <!-- 选中时的背景色 -->
+        <attr name="tag_checkedBackgroundColor" format="reference|color" />
+        <!-- 按下时的背景色 -->
+        <attr name="tag_pressedBackgroundColor" format="reference|color" />
+
+        <!-- TextView的默认颜色 -->
+        <attr name="tag_textColor" format="color" />
+        <!-- TextView选中时的颜色 -->
+        <attr name="tag_checkedTextColor" format="reference|color" />
+        <!-- TextView文字大小 -->
+        <attr name="tag_textSize" format="dimension" />
+
+        <!-- TextView之间的水平间隔 -->
+        <attr name="tag_horizontalSpacing" format="dimension" />
+        <!-- TextView之间的垂直间隔 -->
+        <attr name="tag_verticalSpacing" format="dimension" />
+        <!-- TextView的水平方向的内边距 padding值 -->
+        <attr name="tag_horizontalPadding" format="dimension" />
+        <!-- TextView的垂直方向的内边距 padding值 -->
+        <attr name="tag_verticalPadding" format="dimension" />
+
+
+        <!-- 边框圆角半径 -->
+        <attr name="tag_radius" format="dimension" />
+        <!-- 边框 左下角 圆角半径 -->
+        <attr name="tag_bottomLeftRadius" format="dimension" />
+        <!-- 边框 右下角 圆角半径 -->
+        <attr name="tag_bottomRightRadius" format="dimension" />
+        <!-- 边框 左上角 圆角半径 -->
+        <attr name="tag_topLeftRadius" format="dimension" />
+        <!-- 边框 右上角 圆角半径 -->
+        <attr name="tag_topRightRadius" format="dimension" />
+        <!-- 边框颜色 -->
+        <attr name="tag_strokeColor" format="reference|color" />
+        <!-- 选中状态下的 边框颜色 -->
+        <attr name="tag_checkedStrokeColor" format="reference|color" />
+        <!-- 边框宽度 -->
+        <attr name="tag_strokeWidth" format="dimension" />
+        <!-- 是否多选 -->
+        <attr name="tag_multiChooseable" format="boolean" />
+        <!-- 单选 -->
+        <attr name="tag_singleLine" format="boolean" />
+
+        <!-- 给TextView设置宽，单位dp,为了适应wrap_content用integer -->
+        <attr name="tag_width" format="integer|enum">
+            <enum name="wrap_content" value="-2"/>
+            <enum name="match_parent" value="-1"/>
+        </attr>
+        <!-- 给TextView设置高，单位dp,为了适应wrap_content用integer -->
+        <attr name="tag_height" format="integer|enum">
+            <enum name="wrap_content" value="-2"/>
+            <enum name="match_parent" value="-1"/>
+        </attr>
+        <!--  maxWidth=”80dp” 限制TextView最大宽度。必须与layout_width=”wrap_content”搭配使用，
+                                当指定layout_width为其他值时，maxWidth会失效。
+          maxLength=”10” 限制TextView最多10个字符数。汉字、英文、数字都算一个字符。
+                           maxLength属性会使ellipsize=”end”属性失效。添加了maxLength不再会显示”…”
+          maxEms=”5” 限制TextView的最大宽度为5个大写M的字符宽度。em是一个印刷排版的单位，表示字宽的单位。-->
+        <!-- TextView可显示的最大文字宽度 -->
+        <attr name="tag_maxEms" format="integer" />
+
+    </declare-styleable>
+
+    <declare-styleable name="FlowlayoutThemes">
+        <attr name="flowlayoutStyle" format="reference" />
+    </declare-styleable>
+</resources>

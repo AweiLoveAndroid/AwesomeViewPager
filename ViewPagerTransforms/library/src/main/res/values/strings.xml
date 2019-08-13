@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Library</string>
+
+    <string name="DefaultTransformer">默认</string>
+    <string name="AccordionTransformer">折叠</string>
+    <string name="BackgroundToForegroundTransformer">后到前</string>
+    <string name="ForegroundToBackgroundTransformer">前到后</string>
+    <string name="CubeInTransformer">立体进入</string>
+    <string name="CubeOutTransformer">立体退出</string>
+    <string name="DepthPageTransformer">深度页面</string>
+    <string name="FlipHorizontalTransformer">水平翻转</string>
+    <string name="FlipVerticalTransformer">垂直翻转</string>
+    <string name="RotateDownTransformer">向下旋转</string>
+    <string name="RotateUpTransformer">向上旋转</string>
+    <string name="StackTransformer">叠加</string>
+    <string name="TabletTransformer">方块</string>
+    <string name="ScaleInOutTransformer">放大进出</string>
+    <string name="ZoomInTransformer">放大</string>
+    <string name="ZoomOutTranformer">缩小</string>
+    <string name="ZoomOutSlideTransformer">外面缩小</string>
+    <string name="Gallery3DTransformer">3D画廊</string>
+    <string name="AlphaPageTransformer">透明度变化</string>
+
+</resources>

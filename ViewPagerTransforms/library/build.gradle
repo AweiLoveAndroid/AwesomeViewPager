@@ -1,0 +1,60 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+
+
+    defaultConfig {
+        minSdkVersion 25
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // 替代 v7包
+//    implementation 'androidx.appcompat:appcompat:1.0.2'
+//    implementation 'com.android.support:appcompat-v7:28.0.0'
+
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation 'androidx.mediarouter:mediarouter:1.0.0'
+    implementation 'androidx.palette:palette:1.0.0'
+    implementation 'androidx.preference:preference:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview-selection:1.0.0'
+
+
+    // 替代 v4包
+//    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+//    implementation 'com.android.support:support-v4:28.0.0'
+
+    implementation 'androidx.core:core:1.0.2'
+    implementation 'androidx.media:media:1.0.1'
+    implementation 'androidx.fragment:fragment:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.legacy:legacy-support-core-ui:1.0.0'
+    implementation 'androidx.legacy:legacy-support-core-utils:1.0.0'
+
+
+    // 替代 ViewPager包
+    implementation 'androidx.viewpager:viewpager:1.0.0'
+//    implementation 'com.android.support:viewpager:28.0.0'
+
+}
